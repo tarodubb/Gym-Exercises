@@ -48,6 +48,12 @@ body {
   flex-wrap: wrap;
 }
 
+
+
+.link:hover{
+  border-bottom: 3px solid #d32f2f;
+}
+
 .detail-image {
   width: 729px;
   height: 742px;
@@ -69,7 +75,7 @@ body {
   height: 445px;
   background: #fff;
   border-top: 4px solid #FF2625;
-  border-bottom-left-radius: 20px;
+  border-bottom: 4px solid #FF2625;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -84,12 +90,15 @@ body {
 }
 
 .bodyPart-card {
-  transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
 
+.bodyPart-card:hover{
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
 .exercise-card:hover,
-.bodyPart-card:hover {
+.exercise-video:hover {
   transform: scale(1.1, 1.1);
 }
 
@@ -105,6 +114,7 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+  transition: 0.3s all ease-in-out;
 }
 
 .card-shadow{

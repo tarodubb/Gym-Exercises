@@ -23,7 +23,7 @@ const HeroBanner = () => {
       <Typography fontSize='22px' lineHeight='35px' mb={4}>
         Check out the most effective exercises
       </Typography>
-      <Button variant='contained' color='error'>Explore Exercises</Button>
+      <Button variant='contained' color='error' href='#exerciseSearch' className='smooth-scroll'>Explore Exercises</Button>
       <img src={HeroBannerImage} alt='banner' className='hero-banner-img'/>
       <Typography fontWeight={600}
         color='#ff2625'

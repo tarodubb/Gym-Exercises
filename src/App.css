@@ -127,6 +127,9 @@ body {
     height: 300px;
   }
 
+  .header-text{
+    align-items: center;
+  }
 
   .react-horizontal-scrolling-menu--scroll-container {
     width: 500px;

@@ -51,6 +51,7 @@ body {
 .detail-image {
   width: 729px;
   height: 742px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-banner-img {
@@ -104,6 +105,10 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+}
+
+.card-shadow{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width:1200px) {

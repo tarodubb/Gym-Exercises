@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Workout-search/static/css/main.c54901d1.css",
+    "main.js": "/Workout-search/static/js/main.15a9e328.js",
+    "static/media/banner.png": "/Workout-search/static/media/banner.5209b5e92a864ca0c615.png",
+    "static/media/gym.png": "/Workout-search/static/media/gym.6e701417c428e2fbc267.png",
+    "index.html": "/Workout-search/index.html",
+    "main.c54901d1.css.map": "/Workout-search/static/css/main.c54901d1.css.map",
+    "main.15a9e328.js.map": "/Workout-search/static/js/main.15a9e328.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c54901d1.css",
+    "static/js/main.15a9e328.js"
+  ]
+}

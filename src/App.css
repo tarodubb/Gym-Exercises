@@ -62,12 +62,12 @@ body {
 
 .hero-banner-img {
   position: absolute;
-  right: 40px;
-  top: 0px;
+  right: 96px;
+  top: 40px;
   width: 700px;
   height: 900px;
-  margin-top: -330px;
-
+  margin-top: -280px;
+  border-radius: 50px;
 }
 
 .exercise-card {
@@ -91,12 +91,10 @@ body {
 
 .bodyPart-card {
   transition: 0.3s all ease-in-out;
-}
-
-.bodyPart-card:hover{
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+.bodyPart-card:hover,
 .exercise-card:hover,
 .exercise-video:hover {
   transform: scale(1.1, 1.1);
